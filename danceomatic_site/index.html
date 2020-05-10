@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="da">
+<title>REPERTOIRE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="dOm_webstyle1.css" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">REPERTOIRE</a>
+      <a href="tourplan.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR PLAN</a>
+      <a href="kontakt.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">KONTAKT</a>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-padding-large w3-button" title="More">ABOUT<i class="fa fa-caret-down"></i></button>     
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="team.html" class="w3-bar-item w3-button">TEAM</a>
+          <a href="timeline.html" class="w3-bar-item w3-button">TIMELINE</a>
+          <a href="paragraffer.html" class="w3-bar-item w3-button">VEDTÆGTER</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="tourplan.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR PLAN</a>
+    <a href="kontakt.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">KONTAKT</a>
+    <a href="team.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TEAM</a>
+  </div>
+  
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px;margin-top:46px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>danceOmatic</b></h1>
+  <p><b>REPERTOIRE</b></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row-padding">
+  <div class="w3-third">
+    <div class="container">
+    <a href="dansemaskine.html">
+      <img src="img/dmaskine_main.jpg" alt="Billede af danse-automaten" class="image">
+      <div class="overlay">
+        <div class="text">danse-automat</div>
+      </div>
+    </a>
+    </div>
+    <div class="container">
+      <a href="lets_duet.html">
+        <img src="img/lets_duet_main.jpg" alt= "Billede af performance, lets_duet" class="image">
+        <div class="overlay">
+          <div class="text">Let's Duet</div>
+        </div>
+      </a>
+    </div>
+</div>
+
+  <div class="w3-third">
+    <div class="container">
+      <a href="conTMP.html">
+        <img  src="img/contp_main.jpg"  alt="Billede af conTEMPORARY PAINTER" class="image">
+        <div class="overlay">
+          <div class="text">conTEMPORARY PAINTER</div>
+        </div>
+      </a>
+    </div>
+    <div class="container">
+      <a href="distDANCING.html">
+        <img src="img/distDANCING_main2.jpg" alt= "Billede af performance, konceptet social distDANCING" class="image">
+        <div class="overlay">
+          <div class="text">socail distDANCING</div>
+        </div>
+      </a>
+    </div>
+</div>
+
+  <div class="w3-third">
+    <div class="container">
+      <a href="kinesisk_forestilling.html">
+        <img  src="img/kinashow_main.jpg" alt="Dansere i kinesiske kostumer" class="image">
+        <div class="overlay">
+          <div class="text">Kinesisk show</div>
+        </div>
+      </a>
+    </div>
+    <div class="container">
+    <a href="lab01_twdk.html">
+      <img  src="img/lab01_main.jpg" alt="Dansere i danseposition" class="image">
+      <div class="overlay">
+        <div class="text">Laboratorie 01</div>
+      </div>
+    </a>
+  </div>
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+    <ul class="w3-third w3-small w3-left-align nobullet">
+      <li>Contact</li>
+      <li>danceomatic.dk@gmail.com</li>
+      <li>CVR: 39563886</li>
+    </ul>
+    <div class="w3-third">
+    <a href="https://www.facebook.com/DanceOmatic/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/dance_o_matic/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+  </div>
+</footer>
+
+<script>
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

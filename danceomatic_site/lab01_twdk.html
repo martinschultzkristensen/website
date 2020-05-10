@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="da">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"; href="dOm_webstyle1.css"; type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="youtube-overlay.css"; type="text/css">
+  <link rel="stylesheet" href="Nivo-Slider-jQuery-master/themes/default/default.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="Nivo-Slider-jQuery-master/themes/light/light.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="Nivo-Slider-jQuery-master/themes/dark/dark.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="Nivo-Slider-jQuery-master/themes/bar/bar.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="Nivo-Slider-jQuery-master/nivo-slider.css" type="text/css" media="screen" />
+  
+  <style>
+      body,h1 {font-family: "Montserrat", sans-serif}
+      img {margin-bottom: -7px}
+      .w3-row-padding img {margin-bottom: 12px}
+      </style>
+  
+  <body>
+    <!-- Navbar -->
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="main.html" class="w3-bar-item w3-button w3-padding-large">REPERTOIRE</a>
+      <a href="tourplan.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR PLAN</a>
+      <a href="kontakt.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">KONTAKT</a>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-padding-large w3-button" title="More">ABOUT<i class="fa fa-caret-down"></i></button>     
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="team.html" class="w3-bar-item w3-button">TEAM</a>
+          <a href="timeline.html" class="w3-bar-item w3-button">TIMELINE</a>
+          <a href="paragraffer.html" class="w3-bar-item w3-button">VEDTÆGTER</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="tourplan.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR PLAN</a>
+    <a href="kontakt.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">KONTAKT</a>
+    <a href="team.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TEAM</a>
+  </div>
+  
+    <!-- !PAGE CONTENT! -->
+  <div class="w3-content" style="max-width:1500px;margin-top:46px">
+  
+      <!-- Header -->
+      <div class="w3-opacity">
+      <div class="w3-clear"></div>
+      <header class="w3-center w3-padding-64">
+      </header>
+      </div>
+  
+      <!-- Photo Grid -->
+  <div class="w3-row-padding" id="myGrid" style="margin-bottom:128px">
+      
+      <div class="w3-half w3-justify w3-padding-large">
+        <h1><b>Laboratorie 01</b></h1>  
+        <h6>Mødet mellem Hiphop og Traditionel
+            kinesisk dans</h6>
+            <p>En laboratorie-fremvining med en dansk og taiwansk danseskole. 
+                Laboratoriet gik ud på at eksperimenteret med hiphoppen’s eksplosive energi og tunge beats, og blande det med den traditionelle kinesiske dans’ mystificerede univers med farverige kostumer og flotte rekvisitter. 
+                <br>Målet er at producere en forestilling til unge, som skaber størrere forståelse mellem taiwansk og dansk kultur.</p>
+                <p>Længde: 15 minutter
+                </p>
+        <hr>
+        <br>
+        <article>
+            <h6>Udviklingsprocessen</h6>
+            <p>Kulturudvekslingen har fundet sted i form af et intensivt laboratorieforløb hvor danserne selv har fået til opgave at udvikle materiale. Herefter har vi eksperimenteret med forskellig musik til koreografierne.
+            <br>Fra Danmark havde vi dansere fra Allingham dance team med hovedsæde i Odense. I 2013 udvides skolen med Talent Team ́s for de elever der vil gå All IN. Danserne undervises hovedsageligt i hiphoppens stilarter: House, Locking, Wacking og dancehall. 
+            <br>Fra Taiwan havde vi dansere fra Le-Yuns dance-group, som er et udtagelseshold fra Sha-lei danceart center. Danseskolen findes i Xinying, Tainan, Taiwan.
+            Le-Yuns dance-group arbejder til dagligt med traditionel kinesisk dans og moderne dans, og blev grundlagt i 2005.</p>
+        </article>
+  </div>
+      
+      <div class="w3-half">
+        <div id="wrapper">
+         
+  
+          <div class="slider-wrapper theme-default">
+              <div id="slider" class="nivoSlider">
+                  <img src="img/lab01_1.jpg" data-thumb="img/lab01_1.jpg" alt="" title="#htmlcaption"/>
+                  <img src="img/lab01_2.jpg" data-thumb="img/lab01_2.jpg" alt="" title="#htmlcaption"/>
+                  <img src="img/lab01_3.jpg" data-thumb="img/lab01_3.jpg" alt="" title="#htmlcaption"/>
+                  <img src="img/lab01_4.jpg" data-thumb="img/lab01_4.jpg" alt="" title="#htmlcaption" />
+              </div>
+              <div id="htmlcaption" class="nivo-html-caption">
+                 Se video trailer...</strong> <a href="https://www.youtube.com/watch?v=zasfJoiknmQ" target="_blank"><strong>klik her!</strong></a> 
+              </div>
+          </div>
+  
+        </div>
+      </div>
+      </div>
+  <!-- End Page Content -->
+    </div>
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+    <ul class="w3-third w3-small w3-left-align nobullet">
+      <li>Contact</li>
+      <li>danceomatic.dk@gmail.com</li>
+      <li>CVR: 39563886</li>
+    </ul>
+    <div class="w3-third">
+    <a href="https://www.facebook.com/DanceOmatic/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/dance_o_matic/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+  </div>
+  </footer>
+  
+  
+      
+      <script type="text/javascript" src="Nivo-Slider-jQuery-master/demo/scripts/jquery-1.9.0.min.js"></script>
+      <script type="text/javascript" src="Nivo-Slider-jQuery-master//jquery.nivo.slider.js"></script>
+      <script type="text/javascript">
+      $(window).load(function() {
+          $('#slider').nivoSlider();
+      });
+  
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+      </script>
+  </body>
+  </html>
+  
+  

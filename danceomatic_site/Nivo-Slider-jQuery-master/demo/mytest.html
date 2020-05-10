@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <title>mytest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"; href="../dOm_webstyle1.css"; type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="../themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../nivo-slider.css" type="text/css" media="screen" />
+</head>
+
+<body>
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+          <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+          <a href="main.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+          <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
+          <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+          <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+              <a href="#" class="w3-bar-item w3-button">Extras</a>
+              <a href="#" class="w3-bar-item w3-button">Media</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- !PAGE CONTENT! -->
+    <div class="w3-content" style="max-width:1500px;margin-top:46px">
+
+        <!-- Header -->
+        <div class="w3-clear">
+        <header class="w3-center w3-padding-64">
+            <h1>My test</h1>
+        </header>
+        </div>
+    
+        <!-- Photo Grid -->
+    <div id="myGrid" style="margin-bottom:128px">
+        <div class="w3-half w3-justify">
+
+             <div id="wrapper">
+        <a href="http://dev7studios.com" id="dev7link" title="Go to dev7studios">dev7studios</a>
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/massaman curry.jpeg" data-thumb="images/massaman curry.jpeg" alt="" />
+                <a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
+                <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="../jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
+        </div>
+        </div>
+    </div>
+</body>
+</html>
